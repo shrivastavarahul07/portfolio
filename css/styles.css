@@ -186,6 +186,10 @@ footer {
   transition: 0.2s;
 }
 
+.card-body::-webkit-scrollbar{
+      display: none;
+}
+
 .card:hover .card-body{
   transform: translateY(0%);
   height: 100%;
